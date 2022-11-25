@@ -1,0 +1,93 @@
+body {
+background:var(--bg);
+color:var(--fontColor);
+font-family: verdana;
+text-align:center;
+     
+}
+
+
+li {
+    list-style: circle;
+}
+.list{
+    list-style: square;
+}
+
+img {
+    width: 60%;
+    height: 60%;
+  margin-right: 90px; 
+      }
+
+.light-theme{
+    --bg:var(--green);
+    --fontColor:var(--black);
+    --btnBg:var (--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme{
+
+    --bg:var(--black);
+    --fontColor:var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.considerações-theme{
+
+    --bg:var(--ciano);
+    --fontColor:var(--black);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+       
+}
+
+.defini-theme{
+    --bg:var(--green);
+    --fontColor:var(--black);
+    --btnBg:var(--black);
+    --btnFontColor:var(--white);
+
+}
+
+:root{
+    --green:#00ff00;
+    --white:#FFFFFF;
+    --black:#000000;
+    --ciano:#00FFFF;
+}
+
+.btn {
+    position: absolute;
+    top:20px;
+    left: 250px;
+    height: 50px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    color:var(--btnFontColor);
+    background-color:var(--btnBg);
+    }
+
+    input[type="text"],
+input[type="email"] {
+  border: 2px solid #000;
+  margin: 0 0 1em 0;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  border: 3px solid #333;
+  background-color: #999;
+  border-radius: 5px;
+  padding: 10px 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="submit"]:hover {
+  background-color: #333;
+}
